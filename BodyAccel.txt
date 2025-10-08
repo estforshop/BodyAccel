@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BodyAccel — Creme Dental Clareador com Niacinamida</title>
+  <meta name="description" content="BodyAccel Niacinamide Whitening Toothpaste — Clareamento avançado, fórmula anti-alergia e segura para o uso diário. Resultados visíveis em poucos dias." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#00b4d8;
+      --accent-2:#ff90c1;
+      --muted:#6b7280;
+      --bg:#f7fbff;
+    }
+    *{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:#0f172a;line-height:1.45}
+    .container{max-width:1100px;margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent-2),var(--accent));display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    .nav{display:flex;gap:12px;align-items:center}
+    .btn{background:var(--accent);color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:28px 0}
+    .eyebrow{display:inline-block;padding:6px 10px;border-radius:999px;background:linear-gradient(90deg,rgba(0,180,216,0.12),rgba(255,144,193,0.12));color:var(--muted);font-weight:600;margin-bottom:12px}
+    h1{font-size:36px;margin:6px 0 12px;line-height:1.05}
+    p.lead{color:var(--muted);font-size:16px;margin:0 0 18px}
+    .features{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+    .feature{background:#fff;padding:10px 12px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.06);font-weight:600;font-size:14px}
+    .product-card{background:linear-gradient(180deg,#fff,#f3fbff);border-radius:14px;padding:18px;box-shadow:0 18px 50px rgba(2,6,23,0.06);display:flex;flex-direction:column;align-items:center}
+    .product-img{width:100%;max-width:320px;border-radius:10px;overflow:hidden}
+    .price{font-size:22px;font-weight:800;margin-top:10px}
+    .cta-row{display:flex;gap:12px;margin-top:16px}
+    .whatsapp{background:#25D366;color:#fff;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-flex;align-items:center;gap:10px}
+    .secondary{background:#fff;border:1px solid #e6eef7;color:#0f172a;padding:12px 16px;border-radius:10px;text-decoration:none}
+    section{margin-top:42px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#fff;padding:18px;border-radius:12px;box-shadow:0 12px 30px rgba(2,6,23,0.04)}
+    .lead-2{color:var(--muted)}
+    .testimonials{display:flex;gap:12px;flex-direction:column}
+    blockquote{margin:0;padding:12px;border-left:4px solid var(--accent);background:linear-gradient(90deg,rgba(0,180,216,0.03),transparent);border-radius:8px}
+    footer{margin-top:48px;padding:20px 8px;border-top:1px solid #eef6fb;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+    .badge{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white;padding:8px 10px;border-radius:999px;font-weight:700}
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr; text-align:center}
+      .product-card{order:-1}
+      .grid-3{grid-template-columns:1fr}
+      header{flex-direction:column;align-items:flex-start;gap:12px}
+      footer{justify-content:center}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">BA</div>
+        <div>
+          <div style="font-weight:800">BodyAccel</div>
+          <div style="color:var(--muted);font-size:13px">Creme Dental Clareador com Niacinamida</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="badge">Anti-alergia • Sem peróxido</a>
+        <a href="#buy" class="btn">Comprar Agora</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Apresentação">
+        <div>
+          <span class="eyebrow">Novo • Oferta de Lançamento</span>
+          <h1>Sorriso Branco e Confiante em Poucos Dias</h1>
+          <p class="lead">O <strong>BodyAccel Niacinamide Whitening Toothpaste</strong> combina clareamento avançado com uma fórmula suave, anti-alergia e livre de peróxido. Cuida do esmalte e oferece resultados visíveis em até <strong>5 dias</strong>.</p>
+
+          <div class="features">
+            <div class="feature">Niacinamida + Extratos Naturais</div>
+            <div class="feature">Sem Peróxido • Sem Sensibilidade</div>
+            <div class="feature">Remove Manchas de Café e Chá</div>
+          </div>
+
+          <div class="cta-row" style="margin-top:22px">
+            <a id="whatsappBtn" class="whatsapp" href="#" target="_blank" rel="noopener">
+              🟢 Pedir pelo WhatsApp
+            </a>
+            <a href="#how" class="secondary">Como Funciona</a>
+          </div>
+
+          <p style="color:var(--muted);margin-top:14px;font-size:13px">Envio gratuito por tempo limitado • Garantia de satisfação</p>
+        </div>
+
+        <aside class="product-card" aria-label="Produto">
+          <div class="product-img">
+            <img src="product.jpg" alt="BodyAccel Niacinamide Whitening Toothpaste" style="width:100%;display:block">
+          </div>
+          <div class="price">MT 899 <span style="color:var(--muted);font-weight:600;font-size:13px">/ unidade</span></div>
+          <a id="buyAnchor" class="btn" href="#buy" style="margin-top:12px;text-align:center;width:100%">Comprar Agora</a>
+        </aside>
+      </section>
+
+      <section id="how">
+        <h2 style="margin-bottom:10px">Como Funciona o BodyAccel</h2>
+        <p class="lead-2">A niacinamida ajuda a uniformizar o tom dos dentes enquanto fortalece o esmalte. A fórmula BodyAccel remove suavemente as manchas de superfície e reduz a sensibilidade, graças aos ingredientes calmantes e protetores.</p>
+
+        <div class="grid-3" style="margin-top:18px">
+          <div class="card">
+            <h3 style="margin:0 0 8px">Clareamento Visível</h3>
+            <p class="lead-2" style="margin:0">Resultados notáveis entre 3 e 7 dias de uso diário.</p>
+          </div>
+          <div class="card">
+            <h3 style="margin:0 0 8px">Suave e Seguro</h3>
+            <p class="lead-2" style="margin:0">Fórmula sem peróxido, ideal para gengivas sensíveis.</p>
+          </div>
+          <div class="card">
+            <h3 style="margin:0 0 8px">Protege o Esmalte</h3>
+            <p class="lead-2" style="margin:0">Cria uma camada protetora e previne novas manchas.</p>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:34px">
+        <h2 style="margin-bottom:10px">Depoimentos de Clientes</h2>
+        <div class="testimonials">
+          <blockquote>“Notei diferença logo na primeira semana — e sem nenhuma sensibilidade!” — <strong>Ana P.</strong></blockquote>
+          <blockquote style="margin-top:8px">“Sabor agradável e resultado visível. Um clareamento suave e eficaz.” — <strong>João M.</strong></blockquote>
+        </div>
+      </section>
+
+      <section id="buy" style="margin-top:34px;display:flex;gap:22px;flex-wrap:wrap;align-items:center">
+        <div style="flex:1;min-width:260px">
+          <h2 style="margin-top:0">Oferta de Lançamento — Envio Gratuito</h2>
+          <p class="lead-2">Aproveite o preço especial de lançamento e receba o seu *BodyAccel* com envio gratuito para todo Moçambique. Estoque limitado.</p>
+
+          <ul style="color:var(--muted);padding-left:18px">
+            <li>1 unidade — ideal para começar o tratamento</li>
+            <li>Pacotes promocionais disponíveis — consulte pelo WhatsApp</li>
+          </ul>
+
+          <div style="margin-top:14px">
+            <a id="whatsappBtnBottom" class="whatsapp" href="#" target="_blank" rel="noopener">🟢 Pedir Agora</a>
+          </div>
+        </div>
+
+        <div style="width:320px;min-width:220px">
+          <div style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 20px 60px rgba(2,6,23,0.06);padding:14px">
+            <img src="pack.jpg" alt="Embalagem BodyAccel" style="width:100%;display:block;border-radius:8px">
+            <div style="margin-top:12px;font-weight:700">BodyAccel Niacinamide Toothpaste</div>
+            <div style="color:var(--muted);font-size:13px;margin-top:6px">Sem peróxido • Anti-alergia • Protege o esmalte</div>
+            <div style="margin-top:10px;font-weight:800;font-size:18px">MT 899</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>
+        <div style="font-weight:700">BodyAccel</div>
+        <div style="font-size:13px;color:var(--muted)">Creme Dental Clareador com Niacinamida</div>
+      </div>
+
+      <div style="display:flex;gap:14px;align-items:center">
+        <a href="#" style="text-decoration:none;color:var(--muted)">Instagram</a>
+        <a href="#" style="text-decoration:none;color:var(--muted)">Facebook</a>
+        <a class="whatsapp" id="whFooter" style="text-decoration:none" href="#" target="_blank">WhatsApp</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const waLink = 'https://wa.me/258849080165?text=Olá%2C%20tenho%20interesse%20no%20BodyAccel%20Niacinamide%20Toothpaste.%20Gostaria%20de%20saber%20mais%20sobre%20a%20promoção%20de%20lançamento.';
+    document.getElementById('whatsappBtn').href = waLink;
+    document.getElementById('whatsappBtnBottom').href = waLink;
+    document.getElementById('whFooter').href = waLink;
+    document.getElementById('buyAnchor').addEventListener('click', function(e){
+      e.preventDefault();
+      document.getElementById('buy').scrollIntoView({behavior:'smooth'});
+    });
+  </script>
+</body>
+</html>
